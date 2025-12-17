@@ -49,3 +49,16 @@ npm install
 
 # Run development server
 npm run dev
+
+
+<Card title="Education">
+              <p className="font-medium">{education.degree}</p>
+              <p className={softText}>{education.college}</p>
+              <p className={`text-xs mt-1 ${softText}`}>{education.period}</p>
+            </Card>
+
+             <p className={`mt-3 max-w-2xl ${softText}`}>
+              SocialExpress is a full-stack social networking platform built
+              using the MERN stack. It showcases real-world backend architecture,
+              clean REST API design, and scalable social-media features.
+            </p>
